@@ -16,6 +16,7 @@
 		4B115E0920A627EF00075F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B115E0720A627EF00075F9E /* LaunchScreen.storyboard */; };
 		4B115E1420A627EF00075F9E /* RestfulAPIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B115E1320A627EF00075F9E /* RestfulAPIDemoTests.swift */; };
 		4B115E1F20A627EF00075F9E /* RestfulAPIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B115E1E20A627EF00075F9E /* RestfulAPIDemoUITests.swift */; };
+		4B63E13020ACD594009A286F /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63E12F20ACD594009A286F /* URLHelper.swift */; };
 		E2C29F9B14B7B6B3CB864020 /* Pods_RestfulAPIDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1186E1457D05496032C5544 /* Pods_RestfulAPIDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		4B115E2020A627EF00075F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B1F8CCC20A64A25003886C5 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1F8CCE20A65108003886C5 /* ReactKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B63E12F20ACD594009A286F /* URLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
 		4E8584D8E9DA34195AB29C84 /* Pods-RestfulAPIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulAPIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestfulAPIDemo/Pods-RestfulAPIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		56968621A12A1D441528113D /* Pods-RestfulAPIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulAPIDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestfulAPIDemoTests/Pods-RestfulAPIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		776FF4589662E2673DF87D83 /* Pods_RestfulAPIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestfulAPIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 		4B115DFD20A627ED00075F9E /* RestfulAPIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4B63E12F20ACD594009A286F /* URLHelper.swift */,
 				4B115DFE20A627ED00075F9E /* AppDelegate.swift */,
 				4B115E0020A627ED00075F9E /* ViewController.swift */,
 				4B115E0220A627ED00075F9E /* Main.storyboard */,
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B63E13020ACD594009A286F /* URLHelper.swift in Sources */,
 				4B115E0120A627ED00075F9E /* ViewController.swift in Sources */,
 				4B115DFF20A627ED00075F9E /* AppDelegate.swift in Sources */,
 			);
